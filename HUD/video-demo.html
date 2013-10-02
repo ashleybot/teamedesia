@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset=utf-8>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<title>Video Demo</title>
+<link rel="stylesheet" href="video-demo.css">
+
+</head>
+<body>
+<div id="food">
+<img class="button" src="./left-arrow.png" onclick="leftClicked();">
+<img id="foodImage" class="shadowed" src="./fish_dish.png">
+<img class="button" src="./right-arrow.png" onclick="rightClicked();">
+</div>
+
+<img id="mapImage" class="shadowed" src="./map.png">
+</div>
+
+<div id="videos">
+<video autoplay="autoplay" loop="true"><source src="./left.MOV">Your browser does not support the video tag.</video>
+<video  autoplay="autoplay" loop="true"><source src="./center.MOV">Your browser does not support the video tag.</video>
+<video  autoplay="autoplay" loop="true"><source src="./right.MOV">Your browser does not support the video tag.</video>
+</div>
+<script src="video-demo.js"></script>
+</body>
+</html>

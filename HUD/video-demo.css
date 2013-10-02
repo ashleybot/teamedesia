@@ -1,0 +1,29 @@
+body {
+	background-color:#002200;
+}
+#videos {
+	white-space: nowrap; 
+	height:800px;
+}
+#food {
+	position:fixed; 
+	bottom:10px; 
+	left:10px; 
+	opacity:0.95;
+}
+#mapImage {
+	height:250px; 
+	right:40px; 
+	position:fixed; 
+	bottom:10px; 
+	right:10px; 
+	opacity:0.95;
+}
+.shadowed {
+	box-shadow: 5px 5px 10px #000000;
+}
+.button:hover {
+	opacity:0.8; 
+	box-shadow: 5px 5px 5px #000000 inset;
+	cursor:pointer;
+}

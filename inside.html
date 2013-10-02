@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset=utf-8>
+<style type="text/css">
+body {
+	background-color:#000033;
+}
+#goButton {
+	position:fixed;
+	left:240px;
+	padding: 15px;
+	bottom: 400px;
+	text-align: center;
+	margin: 0px auto;
+	font-size:30px; 
+	font-family:gotham; 
+	background-color:white; 
+	box-shadow:5px 5px 5px #333;
+	opacity: 0.7;
+}
+#goButton:hover {
+	cursor:pointer;
+}
+video {
+	white-space: nowrap; 
+	height:800px;
+	position:fixed;
+	left:150px;
+	width:950px;
+}
+#restaurant_image {
+	position:fixed;
+	width:950px;
+	left:150px;
+}
+</style>
+</head>
+<body>
+<video autoplay="autoplay" loop="true"><source src="./river.ogv">Your browser does not support the video tag.</video>
+<center><img id="restaurant_image" src="inside_restaurant.png"></center>
+<a href="./HUD/video-demo.html"><div id="goButton">Look Outside!</div></a>
+</body>
+</html>
